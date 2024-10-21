@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: rgb(4, 4, 79);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(29, 29, 79);
+}
+
+.left {
+    font-size: 1.6rem;
+}
+
+nav ul {
+    display: flex;
+    justify-self: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.02rem;
+    color: rgb(106, 155, 235);
+    cursor: pointer;
+}
+.Social_media ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+.Social_media ul li a:hover{
+    font-size: 1.02rem;
+    color: rgb(106, 155, 235);
+    cursor: pointer;
+}
+.logos{
+    margin-top: 20px;
+    width: 35px;
+}
+#bg2{
+  width: 399px;
+  height: 400px;
+}
+#part2{
+    background-color: rgba(12, 12, 83, 0.47);
+    gap: 30px;
+    /* margin-top: -5px; */
+}
+.para{
+    font-size: 22px;
+    padding: 5px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#study{
+    margin-top: -40px;
+}
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+#set{
+   height: 350px;
+   width: auto;
+}
+.bTn{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+}
+.level1{
+    height: 20px;
+    width: 90%;
+    background-color: #4c4cad;
+    border-radius: 10px;
+}
+.level2{
+    height: 20px;
+    width: 75%;
+    background-color: #4c4cad;
+    border-radius: 10px;
+}
+.level3{
+    height: 20px;
+    width: 35%;
+    background-color: #4c4cad;
+    border-radius: 10px;
+}
+.prof{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 30px;
+    color: #9698d7;
+}
+.firstSection {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    /* background-color: red; */
+    font-size: 2.46rem;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.leftSection .btn:hover {
+    cursor: pointer;
+    color: #83848d;
+}
+
+.buttons {
+    margin-top: 65px;
+}
+
+.rightSection img {
+    width: 80%;
+    /* margin: 50px 0; */
+}
+
+.purple {
+    color: rgb(177, 119, 231);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(177, 119, 231);
+
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 79vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 121px;
+}
+
+.image-top {
+    width: 25px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+.projects{
+    margin-top: -150px;
+    padding: 23px 122px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+}
+.project{
+    width: 47%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 20px;
+    background-color:  rgb(97, 124, 168);
+}
+.upper{
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: space-between;
+}
+.public{
+    background-color: rgb(221, 213, 213);
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.cirlce{
+    height: 13px;
+    width: 13px;
+    background-color: red;
+    border-radius: 50%;
+}
+.upper .pro{
+    color: rgba(0, 38, 255, 0.807);
+    text-decoration: none;
+}
+.lower{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+.star{
+    margin-left: 30px;
+}
+footer {
+    background-color: #16164e;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 140px;
+}
+
+footer .footer-right {
+    text-align: center;
+    color: gray;
+    padding: 15px 0;
+}
